@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(238, 165, 202);
+}
+
+.title {
+    text-align: center;
+    color: whitesmoke
+}
+
+img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.img_4, .img_6, .img_15, .img_16, .img_17, .img_19 {
+    width: 500px;
+}
+
+.object_1, .object_2, .object_3, .object_4, .object_5, .object_6, .object_7 {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+h2 {
+    color: whitesmoke;
+    padding-left: 7px;
+}
+
+.div_1, .div_2, .div_3, .div_4, .div_5, .div_6, .div_7 {
+    flex-direction: column;
+}
+
+p {
+    font-size: 40px;
+}
+
+@media(max-width: 850px){
+    img, .img_4, .img_6, .img_15, .img_16, .img_17, .img_19 {
+        width: 100%;
+    }
+    p {
+        font-size: 100%;
+    }
+}
